@@ -54,10 +54,10 @@ public class 마인크래프트18111 {
 			if (block < 0)
 				continue outer;
 			if (sum <= time) {
-				time = sum;
 				if (sum == time) {
 					height = Math.max(height, h);
 				} else {
+					time = sum;
 					height = h;
 				}
 			}
