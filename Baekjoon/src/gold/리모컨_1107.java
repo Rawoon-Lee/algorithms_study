@@ -33,7 +33,6 @@ public class 리모컨_1107 {
 				max = Math.max(max, i);
 			}
 		}
-		
 		int idx = 0;
 		String tmp  = "";
 		int ans = 0;
