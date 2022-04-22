@@ -123,8 +123,8 @@ public class 리모컨_1107 {
 				break;
 			}
 		}
-		result[0] = (int) Math.abs(num-small) <= (int) Math.abs(num-big) ? small : big;
-		result[1] = (int) Math.abs(num-small) <= (int) Math.abs(num-big) ? 0 : 2;
+		result[0] = (int) Math.abs(small-num) <= (int) Math.abs(big-num) ? small : big;
+		result[1] = (int) Math.abs(small-num) <= (int) Math.abs(big-num) ? 0 : 2;
 		
 		return result;
 	}
