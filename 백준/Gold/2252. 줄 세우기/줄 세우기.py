@@ -23,5 +23,4 @@ while queue:
         if indegree[i] == 0:
             queue.append(i)
 
-for r in result:
-    print(r, end=' ')
+print(*result)
